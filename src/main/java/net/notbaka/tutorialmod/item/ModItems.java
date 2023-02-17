@@ -9,11 +9,11 @@ import net.notbaka.tutorialmod.TutorialMod;
 
 public class ModItems {
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
     public static final Item RAW_MYTHRIL = registerItem("raw_mythril",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
 
     private static Item registerItem(String name, Item item) {
