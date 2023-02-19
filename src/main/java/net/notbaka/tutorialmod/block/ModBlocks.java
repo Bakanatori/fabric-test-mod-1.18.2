@@ -27,6 +27,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
     public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
             new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
+    public static final Block NOT_EATABLE_STONE = registerBlock("not_eatable_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.MYTHRIL);
 
 
 

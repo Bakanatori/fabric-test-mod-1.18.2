@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "tutorialmod:block/not_eatable_stone"}
+  }
+}

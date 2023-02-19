@@ -18,6 +18,12 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.MYTHRIL).maxDamage(16)));
+    public static final Item LILAC_FLOWER_BULB = registerItem("lilac_flower_bulb",
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
+    public static final Item EATABLE_STONE = registerItem("eatable_stone",
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL).food(ModFoodComponents.EATABLE_STONE)));
+    public static final Item COOKED_EATABLE_STONE = registerItem("cooked_eatable_stone",
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL).food(ModFoodComponents.COOKED_EATABLE_STONE)));
 
 
 

@@ -3,6 +3,9 @@
   "item.tutorialmod.mythril_nugget": "Mythril Nugget",
   "item.tutorialmod.raw_mythril": "Raw Mythril",
   "item.tutorialmod.dowsing_rod": "Dowsing Rod",
+  "item.tutorialmod.lilac_flower_bulb": "Lilac Flower Bulb",
+  "item.tutorialmod.eatable_stone": "Strange Stone",
+  "item.tutorialmod.cooked_eatable_stone": "Cooked Strange Stone",
 
   "block.tutorialmod.mythril_block": "Mythril Block",
   "block.tutorialmod.raw_mythril_block": "Raw Mythril Block",
@@ -10,6 +13,7 @@
   "block.tutorialmod.deepslate_mythril_ore": "Deepslate Mythril Ore",
   "block.tutorialmod.netherrack_mythril_ore": "Netherrack Mythril Ore",
   "block.tutorialmod.speedy_block": "Speedy Block",
+  "block.tutorialmod.not_eatable_stone": "Not Eatable Stone",
 
   "itemGroup.tutorialmod.mythril": "Mythril Tutorial Tab",
 

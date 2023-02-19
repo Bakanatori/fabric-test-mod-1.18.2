@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-
+    "tutorialmod:not_eatable_stone"
   ]
 }

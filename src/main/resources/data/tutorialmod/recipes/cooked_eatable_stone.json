@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "tutorialmod:eatable_stone"
+  },
+  "result": "tutorialmod:cooked_eatable_stone",
+  "experience": 0.35,
+  "cookingtime": 200
+}
