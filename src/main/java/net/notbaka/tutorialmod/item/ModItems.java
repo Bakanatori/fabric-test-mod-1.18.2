@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.notbaka.tutorialmod.TutorialMod;
+import net.notbaka.tutorialmod.block.custom.SpeedyBlock;
 import net.notbaka.tutorialmod.item.custom.DowsingRodItem;
 
 public class ModItems {
@@ -17,6 +18,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.MYTHRIL).maxDamage(16)));
+
 
 
     private static Item registerItem(String name, Item item) {
