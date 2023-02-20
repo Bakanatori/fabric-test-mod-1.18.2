@@ -13,7 +13,9 @@ import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
+import net.notbaka.tutorialmod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -65,6 +67,6 @@ public class DowsingRodItem extends Item {
                 "(" + blockpos.getX() + ", " + blockpos.getY() + ", " + blockpos.getZ() + ")"), false);
     }
     private boolean isValuableBlock(Block block) {
-        return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE || block == Blocks.DIAMOND_ORE || block == Blocks.IRON_ORE;
+        return Registry.BLOCK.getOrCreateEntry(Registry.BLOCK.getKey(block).get()).isIn(ModTags.Blocks.DOWSING_ROD_DETECTABLE_BLOCKS);
     }
 }
